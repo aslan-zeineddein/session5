@@ -19,21 +19,22 @@ header button{
 }
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    
 }
 .column1{
-    width: 700px;
- 
+    width: 600px;
+ margin-top: 20px;
 }
 ul{
     display: flex;
-    margin: 20px 0px;
+    margin-bottom: 20px;
     border-bottom: 1px solid gray;
    
 }
 ul li{
     list-style: none;
-    padding: 10px 8px;
+    padding: 10px 10px;
     color: gray;
 }
 ul li:hover{
@@ -84,4 +85,17 @@ padding-left: 5px;
 .img1 img{
     width: 150px;
     height: 150px;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.column2>div h6{
+    color: green;
+}
+.list1 div{
+    margin-top: 10px;
 }
