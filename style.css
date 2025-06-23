@@ -22,7 +22,8 @@ main{
     flex-direction: column;
 }
 .column1{
-    width: 70%;
+    width: 700px;
+ 
 }
 ul{
     display: flex;
@@ -38,6 +39,9 @@ ul li{
 ul li:hover{
     color: black;
     border-bottom: 2px solid black;
+}
+.user{
+       background-color: whitesmoke;
 }
 .user div{
     margin: 10px 0px;
@@ -60,7 +64,10 @@ padding-left: 5px;
 .flex1{
     display: flex;
     flex-direction: row;
-    align-content: baseline;
+    justify-content: baseline;
+    padding: 10px 0px;
+    width: 600px;
+ 
 }
 .like{
     display: flex;
@@ -68,7 +75,13 @@ padding-left: 5px;
     justify-content: space-between;
     
 }
+.like>div i{
+    padding-left: 5px;
+}
+.img1{
+    padding-left: 10px;
+}
 .img1 img{
     width: 150px;
-    
+    height: 150px;
 }
