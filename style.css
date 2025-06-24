@@ -113,3 +113,17 @@ margin: 5px 5px 5px 0px;
 .list2 h6{
     margin: 10px 0px;
 }
+.follow{
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px ;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.follow>div button{
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+.follow>div button:hover{
+    background-color: lightblue;
+}
